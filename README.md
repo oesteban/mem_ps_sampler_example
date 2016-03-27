@@ -25,3 +25,6 @@ PROC	Sun Mar 27 09:41:42 CDT 2016	wtriplet   385  0.0  0.0   7500  1024 pts/1   
 [...]
 ```
 Then, the R script turns sampler.out into a graph. note that some filtering happens to remove processes that are not relevant to what's being profiles, and the filtering may need to be customized on a per-case basis.
+
+## notes
+* R script does not make use of the `MEM` entries -- could be used to track system memory availability vs the single process mem. 
